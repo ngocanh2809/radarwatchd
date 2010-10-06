@@ -2,7 +2,7 @@
 
 = Introduction =
 
-So this project came about a [http://www.ibm.com/developerworks/library/os-weathermaps/index.html post] I read at IBM one day on making your own weather alerts with GD.  This is an attempt at writing my own radar analysis package to track and predict thunderstorm cells.
+This project came about after reading a [http://www.ibm.com/developerworks/library/os-weathermaps/index.html post] at IBM one day on making your own weather alerts with GD.  This is an attempt at writing a custom radar analysis package to track and predict thunderstorm cells.
 
 
 
