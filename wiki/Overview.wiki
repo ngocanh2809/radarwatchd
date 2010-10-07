@@ -6,7 +6,7 @@ This project came about after reading a [http://www.ibm.com/developerworks/libra
 
 = Details =
 
-The project is divided into several parts:
+The project is collection of several parts:
 
 *[BackgroundDaemon daemon]* - Downloads and archives radar reflectivity and velocity images from NOAA
 
