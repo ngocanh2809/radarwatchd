@@ -1,0 +1,19 @@
+#summary Overview of analysis and tracking code
+
+= Introduction =
+
+The analysis code is written in C/C++ using the libGD, sqlite and STL libraries.  
+
+
+= Details =
+
+The code performs several functions:
+  # Loads images in radar directory searching for a specific station (NCR/reflectivity only for now) and performs analysis on each matching radar file:
+    * Tracks precipitation in image
+    * Locates all storm cells (current criterion is fixed threshold 50+ DBZ)
+    * Performs basic analysis on cell: size, strength, weighted center of mass, average/max DBZ, standard deviation, etc
+    * Writes radar image statistics and storm cell metadata to sqlite database
+    * If storm cells found, radar image itself is additionally committed to database
+  # Analyzes radar images in time-domain and performs removal of non-relevant images
+    * Sorts images by timestamp and arranges images into groups by searching for gaps in timeline
+    * Marks images for removal if no storm data detected and not in chronological proximity to other images with storm activity (removal not actually performed yet)
