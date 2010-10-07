@@ -8,7 +8,7 @@ This project came about after reading a [http://www.ibm.com/developerworks/libra
 
 The project is divided into several parts:
 
-*daemon* - Downloads and archives radar reflectivity and velocity images from NOAA
+*[BackgroundDaemon daemon]* - Downloads and archives radar reflectivity and velocity images from NOAA
 
 *analysis* - Analyses radar images and stores data in an sqlite database
 
