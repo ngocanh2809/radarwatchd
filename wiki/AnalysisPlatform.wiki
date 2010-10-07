@@ -17,3 +17,10 @@ The code performs several functions:
   # Analyzes radar images in time-domain and performs removal of non-relevant images
     * Sorts images by timestamp and arranges images into groups by searching for gaps in timeline
     * Marks images for removal if no storm data detected and not in chronological proximity to other images with storm activity (removal not actually performed yet)
+
+Code will eventually be extended to provide additional functionality:
+
+  * Track storm cell movement based upon fuzzy logic
+  * Issue warnings if cells approaching specified location(s)
+  * Perform analysis on Doppler velocity data to identify mesocyclone rotation
+  * Combine images from several adjacent stations into one composite file
