@@ -1,4 +1,3 @@
-
 = Introduction =
 
 This project came about after reading a [http://www.ibm.com/developerworks/library/os-weathermaps/index.html post at IBM] one day on making your own weather alerts with GD.  This is an attempt at writing a custom radar analysis package to track and predict thunderstorm cells.
@@ -9,11 +8,8 @@ This project came about after reading a [http://www.ibm.com/developerworks/libra
 
 The project is divided into several parts:
 
-*daemon*
-Downloads and archives radar reflectivity and velocity images from NOAA.
+*daemon* - Downloads and archives radar reflectivity and velocity images from NOAA
 
-*analysis*
-Analyses radar images and stores data in an sqlite database.
+*analysis* - Analyses radar images and stores data in an sqlite database
 
-*UI*
-User interface to view radar images and metadata.
+*UI* - User interface to view radar images and metadata
