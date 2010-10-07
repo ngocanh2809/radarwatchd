@@ -12,6 +12,6 @@ The project is collection of several parts:
 
 *[BackgroundDaemon daemon]* - Downloads and archives radar reflectivity and velocity images from NOAA
 
-*analysis* - Analyses radar images and stores data in an sqlite database
+*[AnalysisPlatform analysis]* - Analyses radar images and stores data in an sqlite database
 
 *UI* - User interface to view radar images and metadata
