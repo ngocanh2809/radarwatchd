@@ -23,7 +23,7 @@ Code will eventually be extended to provide additional functionality:
 
   * Track storm cell movement based upon fuzzy logic
   * Issue warnings if cells approaching specified location(s)
-  * Perform analysis on Doppler velocity data to identify mesocyclone rotation
+  * Perform analysis on Doppler velocity data to identify mesocyclone rotation (adding 3D support with multiple elevation angles from raw level I or II data to do properly)
   * Combine images from several adjacent stations into one composite file
 
 Files used in analysis package:
